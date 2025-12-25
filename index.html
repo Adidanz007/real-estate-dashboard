@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate Price Analysis Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Real Estate Price Analysis Dashboard</h1>
+        <p>Exploratory Data Analysis & Linear Regression Model Evaluation</p>
+    </header>
+
+    <section class="cards">
+        <div class="card">
+            <h3>Dataset</h3>
+            <p>California Housing</p>
+        </div>
+        <div class="card">
+            <h3>Total Records</h3>
+            <p>20,640</p>
+        </div>
+        <div class="card">
+            <h3>Total Features</h3>
+            <p>8</p>
+        </div>
+        <div class="card">
+            <h3>Target</h3>
+            <p>Median House Value</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Dataset Features</h2>
+        <table>
+            <tr>
+                <th>Feature Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>MedInc</td>
+                <td>Median income of households</td>
+            </tr>
+            <tr>
+                <td>HouseAge</td>
+                <td>Average age of houses</td>
+            </tr>
+            <tr>
+                <td>AveRooms</td>
+                <td>Average number of rooms per household</td>
+            </tr>
+            <tr>
+                <td>AveBedrms</td>
+                <td>Average number of bedrooms per household</td>
+            </tr>
+            <tr>
+                <td>Population</td>
+                <td>Population of the area</td>
+            </tr>
+            <tr>
+                <td>AveOccup</td>
+                <td>Average occupancy per household</td>
+            </tr>
+            <tr>
+                <td>Latitude</td>
+                <td>Latitude of the location</td>
+            </tr>
+            <tr>
+                <td>Longitude</td>
+                <td>Longitude of the location</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section class="chart-section">
+        <h2>Housing Price Distribution</h2>
+        <img src="assets/price_distribution.png" alt="Price Distribution">
+        <p>This chart shows the distribution of house prices in the dataset.</p>
+    </section>
+
+    <section class="chart-section">
+        <h2>Feature Correlation Analysis</h2>
+        <img src="assets/feature_correlation.png" alt="Feature Correlation">
+        <p>This chart shows how different features correlate with house prices.</p>
+    </section>
+
+    <section class="metrics">
+        <h2>Model Performance</h2>
+        <div class="metric-cards">
+            <div class="metric">
+                <h3>R² Score</h3>
+                <p><!-- put your value --></p>
+            </div>
+            <div class="metric">
+                <h3>RMSE</h3>
+                <p><!-- put your value --></p>
+            </div>
+            <div class="metric">
+                <h3>Average Price</h3>
+                <p><!-- put your value --></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Machine Learning Mini Project | Built using Python, HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
